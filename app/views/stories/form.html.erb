@@ -1,0 +1,27 @@
+<%= form_for @story do |form| %>
+
+	<fieldset>
+		<%= form.label :title %>
+		<%= form.text_field :title %>
+	</fieldset>
+
+	<fieldset>
+		<%= form.label :body %>
+		<%= form.text_area :body %>
+	</fieldset>
+
+	<fieldset>
+		<%= form.label :author %>
+		<%= form.text_field :author %>
+	</fieldset>
+
+	<fieldset>
+		<%= form.label :url %>
+		<%= form.text_field :url %>
+		<%= form.submit %>
+	</fieldset>
+
+
+<% end %>
+
+

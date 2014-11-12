@@ -1,0 +1,4 @@
+1. Make a request http://0.0.0.0:3000/stories
+2. config/routes.rb -> for every get request made to /stories
+	route through to the stories controller's index public action (method)
+3. OK let's have a look at that method: stories 
