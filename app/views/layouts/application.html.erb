@@ -11,7 +11,7 @@
 		<nav>
 	<%= link_to "Top", root_path(sort: "top") %>
 	<%= link_to "Recent", root_path %>
-	<%= link_to "Featured", root_path %>
+	<%= link_to "Featured", root_path(is_featured: true) %>
 	<%= link_to "Add a story", new_story_path %>
 		</nav>
 
